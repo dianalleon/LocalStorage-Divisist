@@ -13,19 +13,6 @@ integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4
 
 <meta charset="UTF-8">
 
-
-<style>
-    .box {
-        width: 250px;
-        height: 250px;
-        float : left;
-        margin : 20px;
-    }
-    .dashed {
-        border: 3px dashed black;
-    }
-</style>
-
 </head>
 
 <body>
@@ -48,13 +35,28 @@ integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4
       <div id="datos">
         <table id="table" class="table">
           <thead class="thead-dark">
-            
+            <tr>
+              <th scope="col">Materia</th>
+              <th scope="col">Primer Previo</th>
+              <th scope="col">Segundo Previo</th>
+              <th scope="col">Tercer Previo</th>
+              <th scope="col">Examen Final</th>
+              <th scope="col">Definitiva</th>
+              <th scope="col">Acción</th>
+
+            </tr>
+        </tr>
+
           </thead>
           
           <tbody id="tab">
             
           </tbody>
         </table>
+      </div>
+
+      <div id="can" class="card" style="width: 18rem;">
+        
       </div>
 
       <script src="app.js"></script>
